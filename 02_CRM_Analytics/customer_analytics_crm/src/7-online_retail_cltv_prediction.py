@@ -1,3 +1,23 @@
+"""
+BG-NBD ve Gamma-Gamma ile CLTV Tahmini
+
+İş Problemi:
+İngiltere merkezli perakende şirketi satış ve pazarlama faaliyetleri için roadmap belirlemek istemektedir. Şirketin
+orta uzun vadeli plan yapabilmesi için var olan müşterilerin gelecekte şirkete sağlayacakları potansiyel değerin
+tahmin edilmesi gerekmektedir
+
+Görev 1:  BG-NBD ve Gamma-Gamma Modellerini Kurarak 6 Aylık CLTV Tahmini Yapılması
+    Adım 1: 2010-2011 yıllarındaki veriyi kullanarak İngiltere’deki müşteriler için 6 aylık CLTV tahmini yapınız.
+    Adım 2: Elde ettiğiniz sonuçları yorumlayıp, değerlendiriniz.
+Görev 2:  Farklı Zaman Periyotlarından Oluşan CLTV Analizi
+    Adım 1: 2010-2011 UK müşterileri için 1 aylık ve 12 aylık CLTV hesaplayınız.
+    Adım 2: 1 aylık CLTV'de en yüksek olan 10 kişi ile 12 aylık'taki en yüksek 10 kişiyi analiz ediniz.
+    Adım 3: Fark var mı? Varsa sizce neden olabilir?
+Görev 3:  Segmentasyon ve Aksiyon Önerileri
+    Adım 1: 2010-2011 UK müşterileri için 6 aylık CLTV'ye göre tüm müşterilerinizi 4 gruba (segmente) ayırınız ve grup isimlerini veri setine ekleyiniz.
+    Adım 2: 4 grup içerisinden seçeceğiniz 2 grup için yönetime kısa kısa 6 aylık aksiyon önerilerinde bulununuz.
+"""
+
 import datetime as dt
 import pandas as pd
 import numpy as np
