@@ -1,17 +1,47 @@
-# Data files
-data/
-outputs/
+# =========================================
+# DATA FILES (never push datasets)
+# =========================================
 *.csv
 *.xlsx
 *.parquet
+*.json
 
-# Python cache
+# CRM specific datasets
+02_CRM_Analytics/my_crm_practice/datasets/
+
+# =========================================
+# IGNORE SPECIFIC CRM SCRIPTS
+# =========================================
+02_CRM_Analytics/my_crm_practice/src/1-rfm_analysis.py
+02_CRM_Analytics/my_crm_practice/src/2-cltv.py
+02_CRM_Analytics/my_crm_practice/src/3-cltv_prediction.py
+
+# =========================================
+# PYTHON
+# =========================================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Jupyter
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================================
+# JUPYTER
+# =========================================
 .ipynb_checkpoints/
 
-# Virtual env
-.venv/
-env/
+# =========================================
+# IDE
+# =========================================
+.idea/
+.vscode/
+
+# =========================================
+# OS
+# =========================================
+.DS_Store
+Thumbs.db
