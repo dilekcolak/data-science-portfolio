@@ -12,9 +12,9 @@
 # =========================================
 # IGNORE SPECIFIC CRM SCRIPTS
 # =========================================
-02_CRM_Analytics/my_crm_practice/src/1-rfm_analysis.py
-02_CRM_Analytics/my_crm_practice/src/2-cltv.py
-02_CRM_Analytics/my_crm_practice/src/3-cltv_prediction.py
+02_CRM_Analytics/customer_analytics_crm/src/1-rfm_analysis.py
+02_CRM_Analytics/customer_analytics_crm/src/2-cltv.py
+02_CRM_Analytics/customer_analytics_crm/src/3-cltv_prediction.py
 
 # =========================================
 # PYTHON
