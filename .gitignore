@@ -17,6 +17,20 @@
 02_CRM_Analytics/customer_analytics_crm/src/3-cltv_prediction.py
 
 # =========================================
+# Measurement Problems Project Rules
+# =========================================
+
+# Ignore all scripts in measurement project
+03_Measurement_Problems/measurement_problems_project/src/*.py
+
+# Allow only specific files
+!03_Measurement_Problems/measurement_problems_project/src/7-AB_Testi.py
+!03_Measurement_Problems/measurement_problems_project/src/8-rating_sorting_amazon.py
+
+# Ignore datasets
+03_Measurement_Problems/measurement_problems_project/datasets/
+
+# =========================================
 # PYTHON
 # =========================================
 __pycache__/
