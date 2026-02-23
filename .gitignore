@@ -27,6 +27,21 @@
 !03_Measurement_Problems/measurement_problems_project/src/7-AB_Testi.py
 !03_Measurement_Problems/measurement_problems_project/src/8-rating_sorting_amazon.py
 
+# =========================================
+# Recommendation System Project
+# =========================================
+
+# ignore datasets
+04_Recommendation_Systems/recommendation_systems_project/datasets/
+
+# ignore all python files
+04_Recommendation_Systems/recommendation_systems_project/src/*.py
+
+# allow only selected files
+!04_Recommendation_Systems/recommendation_systems_project/src/7-arl_recommender.py
+!04_Recommendation_Systems/recommendation_systems_project/src/8-hybrid_recommender.py
+!04_Recommendation_Systems/recommendation_systems_project/src/9-arl_recommender_system.py
+
 # Ignore datasets
 03_Measurement_Problems/measurement_problems_project/datasets/
 
