@@ -8,8 +8,11 @@ Recommendation systems analyze user behavior and item characteristics to suggest
 
 # Project Structure
 src/
+
 ├── 7-arl_recommender.py
+
 ├── 8-hybrid_recommender.py
+
 └── 9-arl_recommender_system.py
 
 ---
