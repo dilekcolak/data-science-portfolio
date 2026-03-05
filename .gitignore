@@ -46,6 +46,21 @@
 03_Measurement_Problems/measurement_problems_project/datasets/
 
 # =========================================
+# Feature Engineering Project
+# =========================================
+
+# ignore datasets
+05_Feature_Engineering/feature_engineering_projects/datasets/
+
+# ignore all python files
+05_Feature_Engineering/my_codes/src/*.py
+
+# allow only selected scripts
+!05_Feature_Engineering/feature_engineering_projects/src/5-uygulama.py
+!05_Feature_Engineering/feature_engineering_projects/src/6-telco_churn.py
+!05_Feature_Engineering/feature_engineering_projects/src/7-diabetes_future_eng.py
+
+# =========================================
 # PYTHON
 # =========================================
 __pycache__/

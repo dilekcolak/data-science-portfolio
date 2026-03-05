@@ -84,7 +84,7 @@ The project estimates the potential future value customers will provide and help
 ---
 
 ## 🎯 Key Skills Demonstrated
-- Customer analytics & segmentation
+- Customer analytics & segmentation 
 - RFM analysis
 - CLTV prediction
 - Feature engineering

@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+category-encoders
+feature-engine
+scipy
+joblib
+missingno
+ydata-profiling
+matplotlib
